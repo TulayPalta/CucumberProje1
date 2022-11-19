@@ -1,2 +1,354 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.098"/>
+<testsuite errors="0" failures="6" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="23" time="17.052">
+    <testcase classname="US001 registerpage" name="US001_TC01" time="9.897">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given Gecerli "123-34-4567" girilir.........................................passed
+Then First Name buttonuna tiklanir..........................................passed
+And Gecerli bir SSN numarasinin girildigi dogrulanir........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US001 registerpage" name="US001_TC01_2" time="0.476">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given Gecerli "906-12-5436" girilir.........................................passed
+Then First Name buttonuna tiklanir..........................................passed
+And Gecerli bir SSN numarasinin girildigi dogrulanir........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US001 registerpage" name="US001_TC01_3" time="0.347">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given Gecerli "867-11-2348" girilir.........................................passed
+Then First Name buttonuna tiklanir..........................................passed
+And Gecerli bir SSN numarasinin girildigi dogrulanir........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US001 registerpage" name="US001_TC01_4" time="0.342">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given Gecerli "123-34-4567" girilir.........................................passed
+Then First Name buttonuna tiklanir..........................................passed
+And Gecerli bir SSN numarasinin girildigi dogrulanir........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US001 registerpage" name="US001_TC01_5" time="0.371">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given Gecerli "806-12-5436" girilir.........................................passed
+Then First Name buttonuna tiklanir..........................................passed
+And Gecerli bir SSN numarasinin girildigi dogrulanir........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US001 registerpage" name="US001_TC01_6" time="0.337">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given Gecerli "867-11-2348" girilir.........................................passed
+Then First Name buttonuna tiklanir..........................................passed
+And Gecerli bir SSN numarasinin girildigi dogrulanir........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US001 registerpage" name="US001_TC02_Negative_Scenario" time="0.388">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given Gecersiz bir "<ssn>" girilir..........................................passed
+Then First Name buttonuna tiklanır..........................................passed
+And Your SSN is invalid mesajinin goruldugu test edilir.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US001 registerpage" name="US001_TC02_Negative_Scenario_2" time="0.347">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given Gecersiz bir "<ssn>" girilir..........................................passed
+Then First Name buttonuna tiklanır..........................................passed
+And Your SSN is invalid mesajinin goruldugu test edilir.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US001 registerpage" name="US001_TC02_Negative_Scenario_3" time="0.299">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given Gecersiz bir "<ssn>" girilir..........................................passed
+Then First Name buttonuna tiklanır..........................................passed
+And Your SSN is invalid mesajinin goruldugu test edilir.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US001 registerpage" name="US001_TC02_Negative_Scenario_4" time="0.36">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given Gecersiz bir "<ssn>" girilir..........................................passed
+Then First Name buttonuna tiklanır..........................................passed
+And Your SSN is invalid mesajinin goruldugu test edilir.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US001 registerpage" name="US001_TC02_Negative_Scenario_5" time="0.379">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given Gecersiz bir "<ssn>" girilir..........................................passed
+Then First Name buttonuna tiklanır..........................................passed
+And Your SSN is invalid mesajinin goruldugu test edilir.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US001 registerpage" name="US001_TC02_Negative_Scenario_6" time="0.362">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given Gecersiz bir "<ssn>" girilir..........................................passed
+Then First Name buttonuna tiklanır..........................................passed
+And Your SSN is invalid mesajinin goruldugu test edilir.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US001 registerpage" name="US001_TC03" time="0.455">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given SSN butonuna tiklanir.................................................passed
+Then First Name buttonuna tiklanir..........................................passed
+And Your SSN is required. mesajinin goruldugu test edilir...................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US001 registerpage" name="US001_TC04_Negative_Scenario" time="0.322">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given Gecerli bir "FirstName" girilir.......................................passed
+Then LastName buttonuna tiklanir............................................passed
+And Your FirstName is required. mesajinin gorulmedigi dogrulanir............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US001 registerpage" name="US001_TC04_Negative_Scenario_2" time="0.344">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given Gecerli bir "FirstName" girilir.......................................passed
+Then LastName buttonuna tiklanir............................................passed
+And Your FirstName is required. mesajinin gorulmedigi dogrulanir............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US001 registerpage" name="US001_TC04_Negative_Scenario_3" time="0.338">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given Gecerli bir "FirstName" girilir.......................................passed
+Then LastName buttonuna tiklanir............................................passed
+And Your FirstName is required. mesajinin gorulmedigi dogrulanir............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US001 registerpage" name="US001_TC04_Negative_Scenario_4" time="0.109">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given Gecerli bir "FirstName" girilir.......................................passed
+Then LastName buttonuna tiklanir............................................passed
+And Your FirstName is required. mesajinin gorulmedigi dogrulanir............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US001 registerpage" name="US001_TC05" time="0.061">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=107.0.5304.107)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'DESKTOP-QTJRRJG', ip: '192.168.1.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [2fc4430c2db86244ad59e123c6aadccd, get {url=https://medunna.com/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\TULAY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59700/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2fc4430c2db86244ad59e123c6aadccd" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[Given Medunna anasayfasina gidilir..........................................failed
+Then Account menu butonu tiklanir...........................................skipped
+And Registration sayfasina gidilir..........................................skipped
+Given First Name buttonuna tiklanir.........................................skipped
+Then Last Name buttonuna tiklanir...........................................skipped
+And Your FirstName is required. mesajinin goruldugu test edilir.............skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-QTJRRJG', ip: '192.168.1.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2fc4430c2db86244ad59e123c6aadccd, get {url=https://medunna.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\TULAY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59700/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2fc4430c2db86244ad59e123c6aadccd
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.US001.medunnaAnasayfasinaGidilir(US001.java:12)
+	at ✽.Medunna anasayfasina gidilir(file:///C:/Users/TULAY/IdeaProjects/Cucumber2/src/test/resources/features/US001.feature:5)
+]]></failure>
+    </testcase>
+    <testcase classname="US001 registerpage" name="US001_TC06_Negative_Scenario" time="0.006">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=107.0.5304.107)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'DESKTOP-QTJRRJG', ip: '192.168.1.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [2fc4430c2db86244ad59e123c6aadccd, get {url=https://medunna.com/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\TULAY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59700/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2fc4430c2db86244ad59e123c6aadccd" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[Given Medunna anasayfasina gidilir..........................................failed
+Then Account menu butonu tiklanir...........................................skipped
+And Registration sayfasina gidilir..........................................skipped
+Given Gecerli bir "LastName" girilir........................................skipped
+Then FirstName buttonuna tiklanir...........................................skipped
+And Your LastName is required. mesajinin gorulmedigi dogrulanir.............skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-QTJRRJG', ip: '192.168.1.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2fc4430c2db86244ad59e123c6aadccd, get {url=https://medunna.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\TULAY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59700/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2fc4430c2db86244ad59e123c6aadccd
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.US001.medunnaAnasayfasinaGidilir(US001.java:12)
+	at ✽.Medunna anasayfasina gidilir(file:///C:/Users/TULAY/IdeaProjects/Cucumber2/src/test/resources/features/US001.feature:5)
+]]></failure>
+    </testcase>
+    <testcase classname="US001 registerpage" name="US001_TC06_Negative_Scenario_2" time="0.009">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=107.0.5304.107)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'DESKTOP-QTJRRJG', ip: '192.168.1.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [2fc4430c2db86244ad59e123c6aadccd, get {url=https://medunna.com/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\TULAY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59700/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2fc4430c2db86244ad59e123c6aadccd" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[Given Medunna anasayfasina gidilir..........................................failed
+Then Account menu butonu tiklanir...........................................skipped
+And Registration sayfasina gidilir..........................................skipped
+Given Gecerli bir "LastName" girilir........................................skipped
+Then FirstName buttonuna tiklanir...........................................skipped
+And Your LastName is required. mesajinin gorulmedigi dogrulanir.............skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-QTJRRJG', ip: '192.168.1.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2fc4430c2db86244ad59e123c6aadccd, get {url=https://medunna.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\TULAY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59700/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2fc4430c2db86244ad59e123c6aadccd
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.US001.medunnaAnasayfasinaGidilir(US001.java:12)
+	at ✽.Medunna anasayfasina gidilir(file:///C:/Users/TULAY/IdeaProjects/Cucumber2/src/test/resources/features/US001.feature:5)
+]]></failure>
+    </testcase>
+    <testcase classname="US001 registerpage" name="US001_TC06_Negative_Scenario_3" time="0.009">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=107.0.5304.107)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'DESKTOP-QTJRRJG', ip: '192.168.1.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [2fc4430c2db86244ad59e123c6aadccd, get {url=https://medunna.com/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\TULAY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59700/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2fc4430c2db86244ad59e123c6aadccd" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[Given Medunna anasayfasina gidilir..........................................failed
+Then Account menu butonu tiklanir...........................................skipped
+And Registration sayfasina gidilir..........................................skipped
+Given Gecerli bir "LastName" girilir........................................skipped
+Then FirstName buttonuna tiklanir...........................................skipped
+And Your LastName is required. mesajinin gorulmedigi dogrulanir.............skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-QTJRRJG', ip: '192.168.1.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2fc4430c2db86244ad59e123c6aadccd, get {url=https://medunna.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\TULAY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59700/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2fc4430c2db86244ad59e123c6aadccd
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.US001.medunnaAnasayfasinaGidilir(US001.java:12)
+	at ✽.Medunna anasayfasina gidilir(file:///C:/Users/TULAY/IdeaProjects/Cucumber2/src/test/resources/features/US001.feature:5)
+]]></failure>
+    </testcase>
+    <testcase classname="US001 registerpage" name="US001_TC06_Negative_Scenario_4" time="0.015">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=107.0.5304.107)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'DESKTOP-QTJRRJG', ip: '192.168.1.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [2fc4430c2db86244ad59e123c6aadccd, get {url=https://medunna.com/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\TULAY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59700/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2fc4430c2db86244ad59e123c6aadccd" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[Given Medunna anasayfasina gidilir..........................................failed
+Then Account menu butonu tiklanir...........................................skipped
+And Registration sayfasina gidilir..........................................skipped
+Given Gecerli bir "LastName" girilir........................................skipped
+Then FirstName buttonuna tiklanir...........................................skipped
+And Your LastName is required. mesajinin gorulmedigi dogrulanir.............skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-QTJRRJG', ip: '192.168.1.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2fc4430c2db86244ad59e123c6aadccd, get {url=https://medunna.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\TULAY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59700/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2fc4430c2db86244ad59e123c6aadccd
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.US001.medunnaAnasayfasinaGidilir(US001.java:12)
+	at ✽.Medunna anasayfasina gidilir(file:///C:/Users/TULAY/IdeaProjects/Cucumber2/src/test/resources/features/US001.feature:5)
+]]></failure>
+    </testcase>
+    <testcase classname="US001 registerpage" name="US001_TC07" time="0.012">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=107.0.5304.107)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'DESKTOP-QTJRRJG', ip: '192.168.1.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [2fc4430c2db86244ad59e123c6aadccd, get {url=https://medunna.com/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\TULAY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59700/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2fc4430c2db86244ad59e123c6aadccd" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[Given Medunna anasayfasina gidilir..........................................failed
+Then Account menu butonu tiklanir...........................................skipped
+And Registration sayfasina gidilir..........................................skipped
+Given Last Name buttonuna tiklanir..........................................skipped
+Then First Name buttonuna tiklanir..........................................skipped
+And Your LastName is required. mesajinin goruldugu test edilir..............skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-QTJRRJG', ip: '192.168.1.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2fc4430c2db86244ad59e123c6aadccd, get {url=https://medunna.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\TULAY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59700/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2fc4430c2db86244ad59e123c6aadccd
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.US001.medunnaAnasayfasinaGidilir(US001.java:12)
+	at ✽.Medunna anasayfasina gidilir(file:///C:/Users/TULAY/IdeaProjects/Cucumber2/src/test/resources/features/US001.feature:5)
+]]></failure>
+    </testcase>
+</testsuite>

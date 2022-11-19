@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.749">
+    <testcase classname="app_title_verification" name="TC01_title_on_chrome" time="0.124">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user is on the application_url "https://www.bluerentalcars.com/"......undefined
+Then verify the page title is "Blue Rental Cars | Cheap, Hygienic, VIP Car Hire".skipped
+Then close the remote driver................................................skipped
+]]></failure>
+    </testcase>
+</testsuite>

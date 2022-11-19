@@ -12,7 +12,7 @@ public class ConfigReader {
         try {
             FileInputStream fis = new FileInputStream(filePath);
             properties = new Properties();
-            properties.load(fis);  // fis in okudugu bilgileri properties e yukledi.S
+            properties.load(fis);  // fis in okudugu bilgileri properties e yukledi.
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

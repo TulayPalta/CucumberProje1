@@ -14,7 +14,6 @@ import java.time.Duration;
 public class Driver {
 
     private Driver() {  // Default constructor'u devre dısı bırakmak yani SingletonPattern yapmak icin kullanılıyor
-
     }
 
     static WebDriver driver;   // static olmalı cunku getDriver() ve closeDriver() methodu static
