@@ -3,10 +3,10 @@ package stepDefinitions;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.hr.Kad;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.asserts.SoftAssert;
 import pages.TulayPage;
 import utilities.ConfigReader;
 import utilities.Driver;
@@ -15,6 +15,7 @@ import utilities.ReusableMethods;
 public class US003StepDefs {
     TulayPage page=new TulayPage();
     Actions actions= new Actions(Driver.getDriver());
+    SoftAssert softAssert=new SoftAssert();
     @Given("New Password bolumune uc karakterli bir sifre {string} girilir")
     public void newPasswordBolumuneUcKarakterliBirSifreGirilir(String invalidSifre) {
       actions.sendKeys(Keys.PAGE_DOWN).perform();
@@ -43,17 +44,26 @@ public class US003StepDefs {
     }
 
     @Given("New Password bolumune yedi karakterden az bir sifre {string} girilir")
-    public void newPasswordBolumuneKarakterdenAzBirSifreGirilir(int arg0, String arg1) {
+    public void newPasswordBolumuneKarakterdenAzBirSifreGirilir(String yedidenAzSifre) {
+        actions.sendKeys(Keys.PAGE_DOWN).perform();
+        ReusableMethods.jsclick(page.newPasswordBox);
+        page.newPasswordBox.sendKeys(yedidenAzSifre);
+        actions.sendKeys(Keys.TAB).sendKeys(Keys.TAB).perform();
+        ReusableMethods.waitFor(2);
     }
 
     @Then("Password strength seviyesinin bes olmadigi test edilir")
-    public void passwordStrengthSeviyesininOlmadigiTestEdilir(int arg0) {
+    public void passwordStrengthSeviyesininOlmadigiTestEdilir() {
+        // Assert.assertFalse(page.NewPasswordFifthColor.isDisplayed());
+        softAssert.assertTrue(page.NewPasswordFifthColor.isDisplayed());
     }
 
     @Given("New Password bolumune guclu sifre {string} girilir")
     public void newPasswordBolumuneGucluSifreGirilir(String arg0) {
     }
-
+    @Then("Password {string} seviyesinin bes olmadigi test edilir")
+    public void passwordSeviyesininBesOlmadigiTestEdilir(String arg0) {
+    }
     @Then("Password strength seviyesinin {int} oldugu dogrulanir")
     public void passwordStrengthSeviyesininOlduguDogrulanir(int arg0) {
     }
@@ -73,4 +83,6 @@ public class US003StepDefs {
     @And("En an bir kucuk harf eklenince password strength seviyesinin degistigi dogrulanir")
     public void enAnBirKucukHarfEklenincePasswordStrengthSeviyesininDegistigiDogrulanir() {
     }
+
+
 }

@@ -43,11 +43,16 @@ public class TulayPage {
     public WebElement invalidPasswordFeedback;
 
     @FindBy(xpath = "//li[@style='background-color: rgb(255, 0, 0);']")
-    public WebElement newPasswordRegisterPageFirstColor;
+    public WebElement newPassworFirstColor;
 
-    //her basamak ayri ayri locate edilmemis 1. basamak ve diigerleri olarak locate edilmis, bu bir bug olmasa da product owner a bunun requirement yetreince iyi "clear"yansittigini söylemek fena olmaz.
-    @FindBy(xpath = "//li[@style='background-color: rgb(221, 221, 221);']")
-    public WebElement getNewPassWordRegisterPageStrengthColor;
+    @FindBy(xpath = "//li[@style='background-color: rgb(255, 153, 0);']")
+    public WebElement newPassworSecondColor;
+
+    @FindBy(xpath = "//li[@style='background-color: rgb(153, 255, 0);']")
+    public WebElement NewPasswordFourthColor;
+
+    @FindBy(xpath = "//li[@style='background-color: rgb(0, 255, 0);']")
+    public WebElement NewPasswordFifthColor;
 
     @FindBy(xpath = "//input[@placeholder='Confirm the new password']")
     public WebElement confirmationPasswordRegisterPage;

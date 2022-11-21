@@ -12,9 +12,9 @@ Feature: US002 registerpage
     Then Your password is required to be at least four characters. yazisinin goruldugu test edilir
     Examples:
       | invalidSifre |
-      |123|
-      |T2c|
-      |Ab*|
+      | 123          |
+      | T2c          |
+      | Ab*          |
 
 
   @US003_TC02
@@ -23,18 +23,27 @@ Feature: US002 registerpage
     And Your password is required to be at least four characters. yazisinin gorunmedigi test edilir
     Examples:
       | validSifre |
-      | wert |
-      | WERT |
-      | 4321 |
-      | @#ba |
-      | Ab1$ |
+      | wert       |
+      | WERT       |
+      | 4321       |
+      | @#ba       |
+      | Ab1$       |
 
 
   @US003_TC03
-  Scenario: US003_TC03
-    Given New Password bolumune yedi karakterden az bir sifre "<7denAzSifre>" girilir
+  Scenario Outline: US003_TC03
+    Given New Password bolumune yedi karakterden az bir sifre "<yedidenAzSifre>" girilir
     Then Password strength seviyesinin bes olmadigi test edilir
-
+    Examples: test data
+      | yedidenAzSifre |
+      |   eraydT    |
+      |   34568a    |
+      |   AY2HMk    |
+      |   xbrydF    |
+      |   tBayd1    |
+      |   eAayd?    |
+      |   brxm!2    |
+      |   b?*B2!    |
 
   @US003_TC04
   Scenario: US003_TC04
