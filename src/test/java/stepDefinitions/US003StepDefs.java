@@ -54,18 +54,21 @@ public class US003StepDefs {
 
     @Then("Password strength seviyesinin bes olmadigi test edilir")
     public void passwordStrengthSeviyesininOlmadigiTestEdilir() {
-        // Assert.assertFalse(page.NewPasswordFifthColor.isDisplayed());
-        softAssert.assertTrue(page.NewPasswordFifthColor.isDisplayed());
+       Assert.assertFalse(Driver.getDriver().getPageSource().contains(ConfigReader.getProperty("PasswordFifthColorCode")));
     }
 
     @Given("New Password bolumune guclu sifre {string} girilir")
-    public void newPasswordBolumuneGucluSifreGirilir(String arg0) {
+    public void newPasswordBolumuneGucluSifreGirilir(String yediligucluSifre) {
+        actions.sendKeys(Keys.PAGE_DOWN).perform();
+        ReusableMethods.jsclick(page.newPasswordBox);
+        page.newPasswordBox.sendKeys(yediligucluSifre);
+        actions.sendKeys(Keys.TAB).sendKeys(Keys.TAB).perform();
     }
-    @Then("Password {string} seviyesinin bes olmadigi test edilir")
-    public void passwordSeviyesininBesOlmadigiTestEdilir(String arg0) {
-    }
+
     @Then("Password strength seviyesinin {int} oldugu dogrulanir")
-    public void passwordStrengthSeviyesininOlduguDogrulanir(int arg0) {
+    public void passwordStrengthSeviyesininOlduguDogrulanir() {
+        //softAssert.assertTrue(page.NewPasswordFifthColor.isDisplayed());
+        Assert.assertTrue(Driver.getDriver().getPageSource().contains(ConfigReader.getProperty("PasswordFifthColorCode")));
     }
 
     @Given("New Password bolumune {int} rakamli bir sifre {string} girilir")
