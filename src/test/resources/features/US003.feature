@@ -38,19 +38,31 @@ Feature: US003 registerpage
       |   eAayd?    |
       |   brxm!2    |
       |   b?*B2!    |
-  @US003_TC04
-  Scenario Outline:
-    Given New Password bolumune guclu sifre "<yediligucluSifre>" girilir
-    Then Password strength seviyesinin 5 oldugu dogrulanir
-    Examples: test data
-      | yediligucluSifre |
-      |   eAayd?2    |
-      |   b?*B2!3    |
-      |   bAY2s!3    |
 
-  @US003_TC05
-  Scenario:
-    Given New Password bolumune 7 rakamli bir sifre "<7RakamliSifre>" girilir
-    Then 7RakamliSifre'nin Password strength seviyesi tespit edilir
-    And New Password bolumune 7 haneli rakam ve kucuk harfli sifre "<7liRakKucHarfliSifre>" girilir
-    And En an bir kucuk harf eklenince password strength seviyesinin degistigi dogrulanir
+  @US_003_TC_004,TC_005,TC_006,TC_007,TC_008
+  Scenario Outline: Kullanici en az 7 karakterli icerisinde en az 1 kucuk harf, 1 rakam, 1 ozel karakter olan sifreleri
+  girer
+    And Kullanici New Password kisminda yeni "<password>" girer
+    And Kullanici parolanin gucunu dogrular "<strength>"
+    And Eb Kullanici sayfayi kapatir
+
+    Examples: test data
+      | password   | strength |
+      | ebraydT    | 2        |
+      | 345678a    | 2        |
+      | AYDHTMk    | 2        |
+      | ebraydF    | 2        |
+      | ebrayd1    | 2        |
+      | ebrayd?    | 2        |
+      | ebraydxm!2 | 4        |
+      | ebrkB2!    | 5        |
+
+  @US_003_TC_009_NegativeTest
+  Scenario Outline: TC_001 Kullanici kucuk harflerden olusan en az 7 karakterli bir sifre girer
+    And Kullanici New Password kisminda yeni "<password>" girer
+    And Kullanici parolanin gucunun degismedigini "<strength>"
+    And Eb Kullanici sayfayi kapatir
+    Examples: password data
+      | password  | strength |
+      | ebraydnys | 1        |
+

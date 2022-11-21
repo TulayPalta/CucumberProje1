@@ -1,174 +1,212 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="57.873">
-    <testcase classname="US003 registerpage" name="_2" time="24.218">
-        <failure message="Step [Password strength seviyesinin {int} oldugu dogrulanir] is defined with 0 parameters at 'stepDefinitions.US003StepDefs.passwordStrengthSeviyesininOlduguDogrulanir()'.&#10;However, the gherkin step has 1 arguments:&#10; * 5&#10;Step text: Password strength seviyesinin 5 oldugu dogrulanir" type="io.cucumber.core.exception.CucumberException"><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="25" time="504.392">
+    <testcase classname="US003 registerpage" name="_2" time="23.694">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
 Then Account menu butonu tiklanir...........................................passed
 And Registration sayfasina gidilir..........................................passed
-Given New Password bolumune guclu sifre "eAayd?2" girilir...................passed
-Then Password strength seviyesinin 5 oldugu dogrulanir......................failed
-
-StackTrace:
-io.cucumber.core.exception.CucumberException: Step [Password strength seviyesinin {int} oldugu dogrulanir] is defined with 0 parameters at 'stepDefinitions.US003StepDefs.passwordStrengthSeviyesininOlduguDogrulanir()'.
-However, the gherkin step has 1 arguments:
- * 5
-Step text: Password strength seviyesinin 5 oldugu dogrulanir
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:95)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
-	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
-	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
-	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
-	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
-	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
-	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
-	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
-	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
-]]></failure>
+Given New Password bolumune uc karakterli bir sifre "123" girilir...........passed
+Then Your password is required to be at least four characters. yazisinin goruldugu test edilir.passed
+]]></system-out>
     </testcase>
-    <testcase classname="US003 registerpage" name="_3" time="17.202">
-        <failure message="Step [Password strength seviyesinin {int} oldugu dogrulanir] is defined with 0 parameters at 'stepDefinitions.US003StepDefs.passwordStrengthSeviyesininOlduguDogrulanir()'.&#10;However, the gherkin step has 1 arguments:&#10; * 5&#10;Step text: Password strength seviyesinin 5 oldugu dogrulanir" type="io.cucumber.core.exception.CucumberException"><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+    <testcase classname="US003 registerpage" name="_3" time="15.988">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
 Then Account menu butonu tiklanir...........................................passed
 And Registration sayfasina gidilir..........................................passed
-Given New Password bolumune guclu sifre "b?*B2!3" girilir...................passed
-Then Password strength seviyesinin 5 oldugu dogrulanir......................failed
-
-StackTrace:
-io.cucumber.core.exception.CucumberException: Step [Password strength seviyesinin {int} oldugu dogrulanir] is defined with 0 parameters at 'stepDefinitions.US003StepDefs.passwordStrengthSeviyesininOlduguDogrulanir()'.
-However, the gherkin step has 1 arguments:
- * 5
-Step text: Password strength seviyesinin 5 oldugu dogrulanir
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:95)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
-	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
-	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
-	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
-	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
-	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
-	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
-	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
-	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
-]]></failure>
+Given New Password bolumune uc karakterli bir sifre "T2c" girilir...........passed
+Then Your password is required to be at least four characters. yazisinin goruldugu test edilir.passed
+]]></system-out>
     </testcase>
-    <testcase classname="US003 registerpage" name="_4" time="15.888">
-        <failure message="Step [Password strength seviyesinin {int} oldugu dogrulanir] is defined with 0 parameters at 'stepDefinitions.US003StepDefs.passwordStrengthSeviyesininOlduguDogrulanir()'.&#10;However, the gherkin step has 1 arguments:&#10; * 5&#10;Step text: Password strength seviyesinin 5 oldugu dogrulanir" type="io.cucumber.core.exception.CucumberException"><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+    <testcase classname="US003 registerpage" name="_4" time="15.956">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
 Then Account menu butonu tiklanir...........................................passed
 And Registration sayfasina gidilir..........................................passed
-Given New Password bolumune guclu sifre "bAY2s!3" girilir...................passed
-Then Password strength seviyesinin 5 oldugu dogrulanir......................failed
-
-StackTrace:
-io.cucumber.core.exception.CucumberException: Step [Password strength seviyesinin {int} oldugu dogrulanir] is defined with 0 parameters at 'stepDefinitions.US003StepDefs.passwordStrengthSeviyesininOlduguDogrulanir()'.
-However, the gherkin step has 1 arguments:
- * 5
-Step text: Password strength seviyesinin 5 oldugu dogrulanir
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:95)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
-	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
-	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
-	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
-	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
-	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
-	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
-	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
-	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
-]]></failure>
+Given New Password bolumune uc karakterli bir sifre "Ab*" girilir...........passed
+Then Your password is required to be at least four characters. yazisinin goruldugu test edilir.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US003 registerpage" name="_5" time="16.902">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+And New Password bolumune en az dort karakterli bir sifre "wert" girilir....passed
+And Your password is required to be at least four characters. yazisinin gorunmedigi test edilir.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US003 registerpage" name="_6" time="16.922">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+And New Password bolumune en az dort karakterli bir sifre "WERT" girilir....passed
+And Your password is required to be at least four characters. yazisinin gorunmedigi test edilir.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US003 registerpage" name="_7" time="16.977">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+And New Password bolumune en az dort karakterli bir sifre "4321" girilir....passed
+And Your password is required to be at least four characters. yazisinin gorunmedigi test edilir.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US003 registerpage" name="_8" time="17.019">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+And New Password bolumune en az dort karakterli bir sifre "@#ba" girilir....passed
+And Your password is required to be at least four characters. yazisinin gorunmedigi test edilir.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US003 registerpage" name="_9" time="17.164">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+And New Password bolumune en az dort karakterli bir sifre "Ab1$" girilir....passed
+And Your password is required to be at least four characters. yazisinin gorunmedigi test edilir.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US003 registerpage" name="_10" time="18.04">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given New Password bolumune yedi karakterden az bir sifre "eraydT" girilir..passed
+Then Password strength seviyesinin bes olmadigi test edilir.................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US003 registerpage" name="_11" time="18.036">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given New Password bolumune yedi karakterden az bir sifre "34568a" girilir..passed
+Then Password strength seviyesinin bes olmadigi test edilir.................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US003 registerpage" name="_12" time="18.043">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given New Password bolumune yedi karakterden az bir sifre "AY2HMk" girilir..passed
+Then Password strength seviyesinin bes olmadigi test edilir.................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US003 registerpage" name="_13" time="18.053">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given New Password bolumune yedi karakterden az bir sifre "xbrydF" girilir..passed
+Then Password strength seviyesinin bes olmadigi test edilir.................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US003 registerpage" name="_14" time="17.947">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given New Password bolumune yedi karakterden az bir sifre "tBayd1" girilir..passed
+Then Password strength seviyesinin bes olmadigi test edilir.................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US003 registerpage" name="_15" time="17.887">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given New Password bolumune yedi karakterden az bir sifre "eAayd?" girilir..passed
+Then Password strength seviyesinin bes olmadigi test edilir.................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US003 registerpage" name="_16" time="17.885">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given New Password bolumune yedi karakterden az bir sifre "brxm!2" girilir..passed
+Then Password strength seviyesinin bes olmadigi test edilir.................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US003 registerpage" name="_17" time="17.866">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+Given New Password bolumune yedi karakterden az bir sifre "b?*B2!" girilir..passed
+Then Password strength seviyesinin bes olmadigi test edilir.................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US003 registerpage" name="Kullanici en az 7 karakterli icerisinde en az 1 kucuk harf, 1 rakam, 1 ozel karakter olan sifreleri" time="18.304">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+And Kullanici New Password kisminda yeni "ebraydT" girer....................passed
+And Kullanici parolanin gucunu dogrular "2".................................passed
+And Eb Kullanici sayfayi kapatir............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US003 registerpage" name="Kullanici en az 7 karakterli icerisinde en az 1 kucuk harf, 1 rakam, 1 ozel karakter olan sifreleri 2" time="22.971">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+And Kullanici New Password kisminda yeni "345678a" girer....................passed
+And Kullanici parolanin gucunu dogrular "2".................................passed
+And Eb Kullanici sayfayi kapatir............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US003 registerpage" name="Kullanici en az 7 karakterli icerisinde en az 1 kucuk harf, 1 rakam, 1 ozel karakter olan sifreleri 3" time="23.257">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+And Kullanici New Password kisminda yeni "AYDHTMk" girer....................passed
+And Kullanici parolanin gucunu dogrular "2".................................passed
+And Eb Kullanici sayfayi kapatir............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US003 registerpage" name="Kullanici en az 7 karakterli icerisinde en az 1 kucuk harf, 1 rakam, 1 ozel karakter olan sifreleri 4" time="38.969">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+And Kullanici New Password kisminda yeni "ebraydF" girer....................passed
+And Kullanici parolanin gucunu dogrular "2".................................passed
+And Eb Kullanici sayfayi kapatir............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US003 registerpage" name="Kullanici en az 7 karakterli icerisinde en az 1 kucuk harf, 1 rakam, 1 ozel karakter olan sifreleri 5" time="22.564">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+And Kullanici New Password kisminda yeni "ebrayd1" girer....................passed
+And Kullanici parolanin gucunu dogrular "2".................................passed
+And Eb Kullanici sayfayi kapatir............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US003 registerpage" name="Kullanici en az 7 karakterli icerisinde en az 1 kucuk harf, 1 rakam, 1 ozel karakter olan sifreleri 6" time="22.803">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+And Kullanici New Password kisminda yeni "ebrayd?" girer....................passed
+And Kullanici parolanin gucunu dogrular "2".................................passed
+And Eb Kullanici sayfayi kapatir............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US003 registerpage" name="Kullanici en az 7 karakterli icerisinde en az 1 kucuk harf, 1 rakam, 1 ozel karakter olan sifreleri 7" time="23.539">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+And Kullanici New Password kisminda yeni "ebraydxm!2" girer.................passed
+And Kullanici parolanin gucunu dogrular "4".................................passed
+And Eb Kullanici sayfayi kapatir............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US003 registerpage" name="Kullanici en az 7 karakterli icerisinde en az 1 kucuk harf, 1 rakam, 1 ozel karakter olan sifreleri 8" time="23.314">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+And Kullanici New Password kisminda yeni "ebrkB2!" girer....................passed
+And Kullanici parolanin gucunu dogrular "5".................................passed
+And Eb Kullanici sayfayi kapatir............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US003 registerpage" name="TC_001 Kullanici kucuk harflerden olusan en az 7 karakterli bir sifre girer" time="23.449">
+        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
+Then Account menu butonu tiklanir...........................................passed
+And Registration sayfasina gidilir..........................................passed
+And Kullanici New Password kisminda yeni "ebraydnys" girer..................passed
+And Kullanici parolanin gucunun degismedigini "1"...........................passed
+And Eb Kullanici sayfayi kapatir............................................passed
+]]></system-out>
     </testcase>
 </testsuite>

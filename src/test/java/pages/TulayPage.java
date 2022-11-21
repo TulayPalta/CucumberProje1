@@ -43,17 +43,18 @@ public class TulayPage {
     public WebElement invalidPasswordFeedback;
 
     @FindBy(xpath = "//li[@style='background-color: rgb(255, 0, 0);']")
-    public WebElement newPassworFirstColor;
+    public WebElement newPasswordFirstColor;
 
     @FindBy(xpath = "//li[@style='background-color: rgb(255, 153, 0);']")
-    public WebElement newPassworSecondColor;
+    public WebElement newPasswordSecondColor;
 
     @FindBy(xpath = "//li[@style='background-color: rgb(153, 255, 0);']")
-    public WebElement NewPasswordFourthColor;
+    public WebElement newPasswordFourthColor;
 
     @FindBy(xpath = "//li[@style='background-color: rgb(0, 255, 0);']")
-    public WebElement NewPasswordFifthColor;
-
+    public WebElement newPasswordFifthColor;
+    @FindBy(xpath = "//input[@name='firstPassword']")
+    public WebElement newPasswordSec;
     @FindBy(xpath = "//input[@placeholder='Confirm the new password']")
     public WebElement confirmationPasswordRegisterPage;
 
@@ -65,4 +66,6 @@ public class TulayPage {
 
     @FindBy(xpath = "//*[text()='Registration saved!']")
     public WebElement successMessageToastContainerRegisterPage;
+
+
 }
