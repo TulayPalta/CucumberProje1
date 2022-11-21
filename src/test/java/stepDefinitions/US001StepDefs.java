@@ -16,7 +16,7 @@ public class US001StepDefs {
 
     @Given("Medunna anasayfasina gidilir")
     public void medunnaAnasayfasinaGidilir() {
-        Driver.getDriver().get(ConfigReader.getProperty("medunna_url"));
+        Driver.getDriver().get(ConfigReader.getProperty("medunnaURL"));
     }
 
     @Then("Account menu butonu tiklanir")

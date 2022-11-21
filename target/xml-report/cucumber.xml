@@ -1,129 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="258.262">
-    <testcase classname="US002 registerPage" name="US002_TC01" time="31.544">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="96.811">
+    <testcase classname="US002 registerpage" name="US003_TC02" time="28.916">
         <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
 Then Account menu butonu tiklanir...........................................passed
 And Registration sayfasina gidilir..........................................passed
-Given Username bolumune gecerli bir "Ali" girilir...........................passed
-Then First Name buttonuna tiklanir..........................................passed
-And Your username is required. mesajinin gorulmedigi dogrulanir.............passed
+And New Password bolumune en az dort karakterli bir sifre "wert" girilir....passed
+And Your password is required to be at least four characters. yazisinin gorunmedigi test edilir.passed
 ]]></system-out>
     </testcase>
-    <testcase classname="US002 registerPage" name="US002_TC01_2" time="16.727">
+    <testcase classname="US002 registerpage" name="US003_TC02_2" time="16.939">
         <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
 Then Account menu butonu tiklanir...........................................passed
 And Registration sayfasina gidilir..........................................passed
-Given Username bolumune gecerli bir "1.ahmet" girilir.......................passed
-Then First Name buttonuna tiklanir..........................................passed
-And Your username is required. mesajinin gorulmedigi dogrulanir.............passed
+And New Password bolumune en az dort karakterli bir sifre "WERT" girilir....passed
+And Your password is required to be at least four characters. yazisinin gorunmedigi test edilir.passed
 ]]></system-out>
     </testcase>
-    <testcase classname="US002 registerPage" name="US002_TC01_3" time="17.121">
+    <testcase classname="US002 registerpage" name="US003_TC02_3" time="16.786">
         <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
 Then Account menu butonu tiklanir...........................................passed
 And Registration sayfasina gidilir..........................................passed
-Given Username bolumune gecerli bir "charlos" girilir.......................passed
-Then First Name buttonuna tiklanir..........................................passed
-And Your username is required. mesajinin gorulmedigi dogrulanir.............passed
+And New Password bolumune en az dort karakterli bir sifre "4321" girilir....passed
+And Your password is required to be at least four characters. yazisinin gorunmedigi test edilir.passed
 ]]></system-out>
     </testcase>
-    <testcase classname="US002 registerPage" name="US002_TC01_4" time="16.911">
+    <testcase classname="US002 registerpage" name="US003_TC02_4" time="16.751">
         <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
 Then Account menu butonu tiklanir...........................................passed
 And Registration sayfasina gidilir..........................................passed
-Given Username bolumune gecerli bir "Leyla" girilir.........................passed
-Then First Name buttonuna tiklanir..........................................passed
-And Your username is required. mesajinin gorulmedigi dogrulanir.............passed
+And New Password bolumune en az dort karakterli bir sifre "@#ba" girilir....passed
+And Your password is required to be at least four characters. yazisinin gorunmedigi test edilir.passed
 ]]></system-out>
     </testcase>
-    <testcase classname="US002 registerPage" name="US002_TC02" time="16.263">
+    <testcase classname="US002 registerpage" name="US003_TC02_5" time="16.934">
         <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
 Then Account menu butonu tiklanir...........................................passed
 And Registration sayfasina gidilir..........................................passed
-Given Username buttonuna tiklanir...........................................passed
-Then First Name buttonuna tiklanir..........................................passed
-And Your username is required. mesajinin goruldugu test edilir..............passed
-]]></system-out>
-    </testcase>
-    <testcase classname="US002 registerPage" name="US002_TC03" time="18.656">
-        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
-Then Account menu butonu tiklanir...........................................passed
-And Registration sayfasina gidilir..........................................passed
-Given Email bolumune Gecerli bir Email "AliKaya2@hotmail.com" girilir.......passed
-Then First Name buttonuna tiklanir..........................................passed
-And Your email is required. mesajinin gorulmedigi dogrulanir................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="US002 registerPage" name="US002_TC03_2" time="17.662">
-        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
-Then Account menu butonu tiklanir...........................................passed
-And Registration sayfasina gidilir..........................................passed
-Given Email bolumune Gecerli bir Email "1.ahmet@gmail.com" girilir..........passed
-Then First Name buttonuna tiklanir..........................................passed
-And Your email is required. mesajinin gorulmedigi dogrulanir................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="US002 registerPage" name="US002_TC03_3" time="17.639">
-        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
-Then Account menu butonu tiklanir...........................................passed
-And Registration sayfasina gidilir..........................................passed
-Given Email bolumune Gecerli bir Email "charlos@hotmail.com" girilir........passed
-Then First Name buttonuna tiklanir..........................................passed
-And Your email is required. mesajinin gorulmedigi dogrulanir................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="US002 registerPage" name="US002_TC03_4" time="17.4">
-        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
-Then Account menu butonu tiklanir...........................................passed
-And Registration sayfasina gidilir..........................................passed
-Given Email bolumune Gecerli bir Email "Leyla@gmail.com" girilir............passed
-Then First Name buttonuna tiklanir..........................................passed
-And Your email is required. mesajinin gorulmedigi dogrulanir................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="US002 registerPage" name="US002_TC04" time="17.568">
-        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
-Then Account menu butonu tiklanir...........................................passed
-And Registration sayfasina gidilir..........................................passed
-Given Email bolumune Gecersiz bir Email "Ali@gmailcom" girilir..............passed
-Then First Name buttonuna tiklanir..........................................passed
-And This field is invalid mesajinin goruldugu test edilir...................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="US002 registerPage" name="US002_TC04_2" time="17.329">
-        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
-Then Account menu butonu tiklanir...........................................passed
-And Registration sayfasina gidilir..........................................passed
-Given Email bolumune Gecersiz bir Email "1.ahmetgmail.com" girilir..........passed
-Then First Name buttonuna tiklanir..........................................passed
-And This field is invalid mesajinin goruldugu test edilir...................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="US002 registerPage" name="US002_TC04_3" time="17.524">
-        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
-Then Account menu butonu tiklanir...........................................passed
-And Registration sayfasina gidilir..........................................passed
-Given Email bolumune Gecersiz bir Email "charlos.hotmail.com" girilir.......passed
-Then First Name buttonuna tiklanir..........................................passed
-And This field is invalid mesajinin goruldugu test edilir...................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="US002 registerPage" name="US002_TC04_4" time="17.64">
-        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
-Then Account menu butonu tiklanir...........................................passed
-And Registration sayfasina gidilir..........................................passed
-Given Email bolumune Gecersiz bir Email "Leyla@gmail@.com" girilir..........passed
-Then First Name buttonuna tiklanir..........................................passed
-And This field is invalid mesajinin goruldugu test edilir...................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="US002 registerPage" name="US002_TC05" time="17.457">
-        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
-Then Account menu butonu tiklanir...........................................passed
-And Registration sayfasina gidilir..........................................passed
-And Email buttonuna tiklanir................................................passed
-Then First Name buttonuna tiklanir..........................................passed
-And Your email is required. mesajinin goruldugu test edilir.................passed
+And New Password bolumune en az dort karakterli bir sifre "Ab1$" girilir....passed
+And Your password is required to be at least four characters. yazisinin gorunmedigi test edilir.passed
 ]]></system-out>
     </testcase>
 </testsuite>

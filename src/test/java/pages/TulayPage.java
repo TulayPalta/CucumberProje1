@@ -36,6 +36,12 @@ public class TulayPage {
 
     @FindBy(xpath = "//*[@id=\"register-form\"]/div[5]/div")   public WebElement emailInvalidFeedback;
 
+    @FindBy(xpath = "//*[@id='firstPassword']")   public WebElement newPasswordBox;
+
+
+    @FindBy(xpath = "//*[.='Your password is required to be at least 4 characters.']")
+    public WebElement invalidPasswordFeedback;
+
     @FindBy(xpath = "//li[@style='background-color: rgb(255, 0, 0);']")
     public WebElement newPasswordRegisterPageFirstColor;
 
@@ -45,9 +51,6 @@ public class TulayPage {
 
     @FindBy(xpath = "//input[@placeholder='Confirm the new password']")
     public WebElement confirmationPasswordRegisterPage;
-
-    @FindBy(xpath = "//div[text()='Your confirmation password is required to be at least 4 characters.']")
-    public WebElement invalidPasswordConfirmationCountCharacterMessageRegisterPage;
 
     @FindBy(xpath = "//div[text()='The password and its confirmation do not match!']")
     public WebElement invalidPasswordConfirmationMessageRegisterPage;
