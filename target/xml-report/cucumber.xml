@@ -1,212 +1,129 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="25" time="504.392">
-    <testcase classname="US003 registerpage" name="_2" time="23.694">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="243.609">
+    <testcase classname="US002 registerPage" name="_2" time="23.757">
         <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
 Then Account menu butonu tiklanir...........................................passed
 And Registration sayfasina gidilir..........................................passed
-Given New Password bolumune uc karakterli bir sifre "123" girilir...........passed
-Then Your password is required to be at least four characters. yazisinin goruldugu test edilir.passed
+Given Username bolumune gecerli bir "Ali" girilir...........................passed
+Then First Name buttonuna tiklanir..........................................passed
+And Your username is required. mesajinin gorulmedigi dogrulanir.............passed
 ]]></system-out>
     </testcase>
-    <testcase classname="US003 registerpage" name="_3" time="15.988">
+    <testcase classname="US002 registerPage" name="_3" time="16.22">
         <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
 Then Account menu butonu tiklanir...........................................passed
 And Registration sayfasina gidilir..........................................passed
-Given New Password bolumune uc karakterli bir sifre "T2c" girilir...........passed
-Then Your password is required to be at least four characters. yazisinin goruldugu test edilir.passed
+Given Username bolumune gecerli bir "1.ahmet" girilir.......................passed
+Then First Name buttonuna tiklanir..........................................passed
+And Your username is required. mesajinin gorulmedigi dogrulanir.............passed
 ]]></system-out>
     </testcase>
-    <testcase classname="US003 registerpage" name="_4" time="15.956">
+    <testcase classname="US002 registerPage" name="_4" time="16.254">
         <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
 Then Account menu butonu tiklanir...........................................passed
 And Registration sayfasina gidilir..........................................passed
-Given New Password bolumune uc karakterli bir sifre "Ab*" girilir...........passed
-Then Your password is required to be at least four characters. yazisinin goruldugu test edilir.passed
+Given Username bolumune gecerli bir "charlos" girilir.......................passed
+Then First Name buttonuna tiklanir..........................................passed
+And Your username is required. mesajinin gorulmedigi dogrulanir.............passed
 ]]></system-out>
     </testcase>
-    <testcase classname="US003 registerpage" name="_5" time="16.902">
+    <testcase classname="US002 registerPage" name="_5" time="15.942">
         <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
 Then Account menu butonu tiklanir...........................................passed
 And Registration sayfasina gidilir..........................................passed
-And New Password bolumune en az dort karakterli bir sifre "wert" girilir....passed
-And Your password is required to be at least four characters. yazisinin gorunmedigi test edilir.passed
+Given Username bolumune gecerli bir "Leyla" girilir.........................passed
+Then First Name buttonuna tiklanir..........................................passed
+And Your username is required. mesajinin gorulmedigi dogrulanir.............passed
 ]]></system-out>
     </testcase>
-    <testcase classname="US003 registerpage" name="_6" time="16.922">
+    <testcase classname="US002 registerPage" name="_6" time="16.144">
         <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
 Then Account menu butonu tiklanir...........................................passed
 And Registration sayfasina gidilir..........................................passed
-And New Password bolumune en az dort karakterli bir sifre "WERT" girilir....passed
-And Your password is required to be at least four characters. yazisinin gorunmedigi test edilir.passed
+Given Username buttonuna tiklanir...........................................passed
+Then First Name buttonuna tiklanir..........................................passed
+And Your username is required. mesajinin goruldugu test edilir..............passed
 ]]></system-out>
     </testcase>
-    <testcase classname="US003 registerpage" name="_7" time="16.977">
+    <testcase classname="US002 registerPage" name="_7" time="16.941">
         <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
 Then Account menu butonu tiklanir...........................................passed
 And Registration sayfasina gidilir..........................................passed
-And New Password bolumune en az dort karakterli bir sifre "4321" girilir....passed
-And Your password is required to be at least four characters. yazisinin gorunmedigi test edilir.passed
+Given Email bolumune Gecerli bir Email "AliKaya2@hotmail.com" girilir.......passed
+Then First Name buttonuna tiklanir..........................................passed
+And Your email is required. mesajinin gorulmedigi dogrulanir................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="US003 registerpage" name="_8" time="17.019">
+    <testcase classname="US002 registerPage" name="_8" time="16.904">
         <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
 Then Account menu butonu tiklanir...........................................passed
 And Registration sayfasina gidilir..........................................passed
-And New Password bolumune en az dort karakterli bir sifre "@#ba" girilir....passed
-And Your password is required to be at least four characters. yazisinin gorunmedigi test edilir.passed
+Given Email bolumune Gecerli bir Email "1.ahmet@gmail.com" girilir..........passed
+Then First Name buttonuna tiklanir..........................................passed
+And Your email is required. mesajinin gorulmedigi dogrulanir................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="US003 registerpage" name="_9" time="17.164">
+    <testcase classname="US002 registerPage" name="_9" time="16.87">
         <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
 Then Account menu butonu tiklanir...........................................passed
 And Registration sayfasina gidilir..........................................passed
-And New Password bolumune en az dort karakterli bir sifre "Ab1$" girilir....passed
-And Your password is required to be at least four characters. yazisinin gorunmedigi test edilir.passed
+Given Email bolumune Gecerli bir Email "charlos@hotmail.com" girilir........passed
+Then First Name buttonuna tiklanir..........................................passed
+And Your email is required. mesajinin gorulmedigi dogrulanir................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="US003 registerpage" name="_10" time="18.04">
+    <testcase classname="US002 registerPage" name="_10" time="16.909">
         <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
 Then Account menu butonu tiklanir...........................................passed
 And Registration sayfasina gidilir..........................................passed
-Given New Password bolumune yedi karakterden az bir sifre "eraydT" girilir..passed
-Then Password strength seviyesinin bes olmadigi test edilir.................passed
+Given Email bolumune Gecerli bir Email "Leyla@gmail.com" girilir............passed
+Then First Name buttonuna tiklanir..........................................passed
+And Your email is required. mesajinin gorulmedigi dogrulanir................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="US003 registerpage" name="_11" time="18.036">
+    <testcase classname="US002 registerPage" name="_11" time="16.937">
         <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
 Then Account menu butonu tiklanir...........................................passed
 And Registration sayfasina gidilir..........................................passed
-Given New Password bolumune yedi karakterden az bir sifre "34568a" girilir..passed
-Then Password strength seviyesinin bes olmadigi test edilir.................passed
+Given Email bolumune Gecersiz bir Email "Ali@gmailcom" girilir..............passed
+Then First Name buttonuna tiklanir..........................................passed
+And This field is invalid mesajinin goruldugu test edilir...................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="US003 registerpage" name="_12" time="18.043">
+    <testcase classname="US002 registerPage" name="_12" time="16.942">
         <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
 Then Account menu butonu tiklanir...........................................passed
 And Registration sayfasina gidilir..........................................passed
-Given New Password bolumune yedi karakterden az bir sifre "AY2HMk" girilir..passed
-Then Password strength seviyesinin bes olmadigi test edilir.................passed
+Given Email bolumune Gecersiz bir Email "1.ahmetgmail.com" girilir..........passed
+Then First Name buttonuna tiklanir..........................................passed
+And This field is invalid mesajinin goruldugu test edilir...................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="US003 registerpage" name="_13" time="18.053">
+    <testcase classname="US002 registerPage" name="_13" time="16.954">
         <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
 Then Account menu butonu tiklanir...........................................passed
 And Registration sayfasina gidilir..........................................passed
-Given New Password bolumune yedi karakterden az bir sifre "xbrydF" girilir..passed
-Then Password strength seviyesinin bes olmadigi test edilir.................passed
+Given Email bolumune Gecersiz bir Email "charlos.hotmail.com" girilir.......passed
+Then First Name buttonuna tiklanir..........................................passed
+And This field is invalid mesajinin goruldugu test edilir...................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="US003 registerpage" name="_14" time="17.947">
+    <testcase classname="US002 registerPage" name="_14" time="16.868">
         <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
 Then Account menu butonu tiklanir...........................................passed
 And Registration sayfasina gidilir..........................................passed
-Given New Password bolumune yedi karakterden az bir sifre "tBayd1" girilir..passed
-Then Password strength seviyesinin bes olmadigi test edilir.................passed
+Given Email bolumune Gecersiz bir Email "Leyla@gmail@.com" girilir..........passed
+Then First Name buttonuna tiklanir..........................................passed
+And This field is invalid mesajinin goruldugu test edilir...................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="US003 registerpage" name="_15" time="17.887">
+    <testcase classname="US002 registerPage" name="_15" time="19.232">
         <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
 Then Account menu butonu tiklanir...........................................passed
 And Registration sayfasina gidilir..........................................passed
-Given New Password bolumune yedi karakterden az bir sifre "eAayd?" girilir..passed
-Then Password strength seviyesinin bes olmadigi test edilir.................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="US003 registerpage" name="_16" time="17.885">
-        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
-Then Account menu butonu tiklanir...........................................passed
-And Registration sayfasina gidilir..........................................passed
-Given New Password bolumune yedi karakterden az bir sifre "brxm!2" girilir..passed
-Then Password strength seviyesinin bes olmadigi test edilir.................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="US003 registerpage" name="_17" time="17.866">
-        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
-Then Account menu butonu tiklanir...........................................passed
-And Registration sayfasina gidilir..........................................passed
-Given New Password bolumune yedi karakterden az bir sifre "b?*B2!" girilir..passed
-Then Password strength seviyesinin bes olmadigi test edilir.................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="US003 registerpage" name="Kullanici en az 7 karakterli icerisinde en az 1 kucuk harf, 1 rakam, 1 ozel karakter olan sifreleri" time="18.304">
-        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
-Then Account menu butonu tiklanir...........................................passed
-And Registration sayfasina gidilir..........................................passed
-And Kullanici New Password kisminda yeni "ebraydT" girer....................passed
-And Kullanici parolanin gucunu dogrular "2".................................passed
-And Eb Kullanici sayfayi kapatir............................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="US003 registerpage" name="Kullanici en az 7 karakterli icerisinde en az 1 kucuk harf, 1 rakam, 1 ozel karakter olan sifreleri 2" time="22.971">
-        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
-Then Account menu butonu tiklanir...........................................passed
-And Registration sayfasina gidilir..........................................passed
-And Kullanici New Password kisminda yeni "345678a" girer....................passed
-And Kullanici parolanin gucunu dogrular "2".................................passed
-And Eb Kullanici sayfayi kapatir............................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="US003 registerpage" name="Kullanici en az 7 karakterli icerisinde en az 1 kucuk harf, 1 rakam, 1 ozel karakter olan sifreleri 3" time="23.257">
-        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
-Then Account menu butonu tiklanir...........................................passed
-And Registration sayfasina gidilir..........................................passed
-And Kullanici New Password kisminda yeni "AYDHTMk" girer....................passed
-And Kullanici parolanin gucunu dogrular "2".................................passed
-And Eb Kullanici sayfayi kapatir............................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="US003 registerpage" name="Kullanici en az 7 karakterli icerisinde en az 1 kucuk harf, 1 rakam, 1 ozel karakter olan sifreleri 4" time="38.969">
-        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
-Then Account menu butonu tiklanir...........................................passed
-And Registration sayfasina gidilir..........................................passed
-And Kullanici New Password kisminda yeni "ebraydF" girer....................passed
-And Kullanici parolanin gucunu dogrular "2".................................passed
-And Eb Kullanici sayfayi kapatir............................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="US003 registerpage" name="Kullanici en az 7 karakterli icerisinde en az 1 kucuk harf, 1 rakam, 1 ozel karakter olan sifreleri 5" time="22.564">
-        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
-Then Account menu butonu tiklanir...........................................passed
-And Registration sayfasina gidilir..........................................passed
-And Kullanici New Password kisminda yeni "ebrayd1" girer....................passed
-And Kullanici parolanin gucunu dogrular "2".................................passed
-And Eb Kullanici sayfayi kapatir............................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="US003 registerpage" name="Kullanici en az 7 karakterli icerisinde en az 1 kucuk harf, 1 rakam, 1 ozel karakter olan sifreleri 6" time="22.803">
-        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
-Then Account menu butonu tiklanir...........................................passed
-And Registration sayfasina gidilir..........................................passed
-And Kullanici New Password kisminda yeni "ebrayd?" girer....................passed
-And Kullanici parolanin gucunu dogrular "2".................................passed
-And Eb Kullanici sayfayi kapatir............................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="US003 registerpage" name="Kullanici en az 7 karakterli icerisinde en az 1 kucuk harf, 1 rakam, 1 ozel karakter olan sifreleri 7" time="23.539">
-        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
-Then Account menu butonu tiklanir...........................................passed
-And Registration sayfasina gidilir..........................................passed
-And Kullanici New Password kisminda yeni "ebraydxm!2" girer.................passed
-And Kullanici parolanin gucunu dogrular "4".................................passed
-And Eb Kullanici sayfayi kapatir............................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="US003 registerpage" name="Kullanici en az 7 karakterli icerisinde en az 1 kucuk harf, 1 rakam, 1 ozel karakter olan sifreleri 8" time="23.314">
-        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
-Then Account menu butonu tiklanir...........................................passed
-And Registration sayfasina gidilir..........................................passed
-And Kullanici New Password kisminda yeni "ebrkB2!" girer....................passed
-And Kullanici parolanin gucunu dogrular "5".................................passed
-And Eb Kullanici sayfayi kapatir............................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="US003 registerpage" name="TC_001 Kullanici kucuk harflerden olusan en az 7 karakterli bir sifre girer" time="23.449">
-        <system-out><![CDATA[Given Medunna anasayfasina gidilir..........................................passed
-Then Account menu butonu tiklanir...........................................passed
-And Registration sayfasina gidilir..........................................passed
-And Kullanici New Password kisminda yeni "ebraydnys" girer..................passed
-And Kullanici parolanin gucunun degismedigini "1"...........................passed
-And Eb Kullanici sayfayi kapatir............................................passed
+And Email buttonuna tiklanir................................................passed
+Then First Name buttonuna tiklanir..........................................passed
+And Your email is required. mesajinin goruldugu test edilir.................passed
 ]]></system-out>
     </testcase>
 </testsuite>

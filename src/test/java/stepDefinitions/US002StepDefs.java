@@ -65,7 +65,8 @@ public class US002StepDefs {
         actions.sendKeys(Keys.TAB).sendKeys(Keys.TAB).perform();
     }
     @And("Your email is required. mesajinin goruldugu test edilir")
-    public void yourEmailIsRequiredMesajininGorulduguTestEdilir() {
+    public void yourEmailIsRequiredMesajininGorulduguTestEdilir() throws InterruptedException {
+        Thread.sleep(2000);
         Assert.assertEquals(ConfigReader.getProperty("EmailRequiredFeedBack"),page.emailRequiredFeedback.getText());
     }
 
